@@ -10,6 +10,6 @@ public class ResourceController {
 
     @GetMapping(value = "/resources")
     public ResponseEntity<String> getResource() {
-        return new ResponseEntity<>("Get resource api call", HttpStatus.ACCEPTED);
+        return new ResponseEntity<>("Get resource api call invoked", HttpStatus.ACCEPTED);
     }
 }
